@@ -1,0 +1,21 @@
+{
+  "name": "e2e-test",
+  "version": "1.0.0",
+  "author": "Rakib",
+  "license": "ISC",
+  "description": "This is a end-to-end sample project using Playwright",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  
+  "devDependencies": {
+    "@applitools/eyes-playwright": "^1.8.2",
+    "jest": "^27.5.1",
+    "playwright": "^1.22.2"
+  },
+  "dependencies": {
+    "jest-html-reporter": "^3.5.0",
+    "preset": "jest-playwright-preset"
+  }
+}
