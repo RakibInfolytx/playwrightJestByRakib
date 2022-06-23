@@ -52,7 +52,7 @@ describe('Applitools page test', () => {
     })
 
     it('- Should be logged in as Jack Gomez', async() => {
-       expect(await homePage.getUserName()).toBe('Jack Gomez');
+       expect(await homePage.getUserName()).toBe('Jack Gome');
     })
 
     it('- Should have total balance of $350',  async() => {
